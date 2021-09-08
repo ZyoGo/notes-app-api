@@ -29,12 +29,12 @@ class UserService {
 
     const result = await this._pool.query(query);
 
-    if (!result.rows.lenght) {
+    if (!result.rows.length) {
       throw new InvariantError('User gagal ditambahkan');
     }
 
     // eslint-disable-next-line no-console
-    console.log(result.rows[0].id);
+    // console.log(result.rows[0].id);
 
     return result.rows[0].id;
   }
@@ -48,7 +48,7 @@ class UserService {
     const result = await this._pool.query(query);
 
     if (result.rows.length > 0) {
-      throw new InvariantError('Gagal menambahkan user. Username sudah digunakan');
+      throw new InvariantError('Gagal menambahkan user. Username sudah digunakan.');
     }
   }
 
@@ -60,7 +60,7 @@ class UserService {
 
     const result = await this._pool.query(query);
 
-    if (!result.rows.lenght) {
+    if (!result.rows.length) {
       throw new NotFoundError('User tidak ditemukan');
     }
 
