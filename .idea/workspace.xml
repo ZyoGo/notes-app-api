@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ced029b-18da-428d-9e30-91ea81e5d786" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/api/notes/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/notes/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/postgres/UsersService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/UsersService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/users/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/users/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/users/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/1631457739673_create-table-authentications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/postgres/AuthenticationsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joi.js" beforeDir="false" afterPath="$PROJECT_DIR$/joi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1xrNlFUyxb5bCdEMGpJPWh7Vo80" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,9 +43,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="code.cleanup.on.save" value="true" />
+    <property name="format.on.save" value="true" />
+    <property name="last_opened_file_path" value="/usr/lib/node_modules/prettier" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="optimize.imports.on.save" value="true" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/lib/node_modules/prettier" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -50,10 +78,36 @@
       <option name="presentableId" value="Default" />
       <updated>1631109408282</updated>
       <workItem from="1631109419791" duration="886000" />
+      <workItem from="1631452543101" duration="2419000" />
+      <workItem from="1631458720559" duration="163000" />
+      <workItem from="1631458925395" duration="705000" />
+      <workItem from="1631459924057" duration="491000" />
+      <workItem from="1631460475624" duration="755000" />
+      <workItem from="1631461273186" duration="783000" />
+      <workItem from="1631546378322" duration="127000" />
+      <workItem from="1631546539043" duration="815000" />
+      <workItem from="1631547401510" duration="941000" />
+      <workItem from="1631580053000" duration="871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
