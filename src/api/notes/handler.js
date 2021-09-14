@@ -23,7 +23,11 @@ class NotesHandler {
       this._validator.validateNotePayload(request.payload);
       const { title = 'untitled', tags, body } = request.payload;
 
-      const noteId = await this._service.addNote({ title, tags, body });
+      const noteId = await this._service.addNote({
+        title,
+        tags,
+        body,
+      });
 
       const response = h.response({
         status: 'success',

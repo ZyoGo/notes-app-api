@@ -22,24 +22,22 @@ class AuthenticationsService {
       values: [token],
     };
 
-    const result = await this._pool.query(query)
+    const result = await this._pool.query(query);
 
     if (!result.rows.length) {
-      throw new InvariantError('Refresh token tidak valid')
+      throw new InvariantError('Refresh token tidak valid');
     }
-    
-    
   }
-  
+
   async deleteRefreshToken(token) {
-    await this.verifyRefreshToken(token)
-    
+    await this.verifyRefreshToken(token);
+
     const query = {
-      text: "DELETE token FROM authentication WHERE token = $1",
-      values: [token]
-    }
-    
-    await this._pool.query(query)
+      text: 'DELETE token FROM authentication WHERE token = $1',
+      values: [token],
+    };
+
+    await this._pool.query(query);
   }
 }
 
