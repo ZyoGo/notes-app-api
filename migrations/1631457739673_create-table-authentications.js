@@ -1,9 +1,7 @@
 /* eslint-disable camelcase,arrow-parens */
 
-exports.shorthands = undefined;
-
-exports.up = pgm => {
-  pgm.createTable('authentication', {
+exports.up = (pgm) => {
+  pgm.createTable('authentications', {
     token: {
       type: 'TEXT',
       notNull: true,
@@ -11,6 +9,6 @@ exports.up = pgm => {
   });
 };
 
-exports.down = pgm => {
-  pgm.dropTable('authentication');
+exports.down = (pgm) => {
+  pgm.dropTable('authentications');
 };
