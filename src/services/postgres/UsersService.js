@@ -70,7 +70,7 @@ class UserService {
 
   async verifyUserCredential(username, password) {
     const query = {
-      text: 'SELECT id, password FROM authentications WHERE username = $1',
+      text: 'SELECT id, password FROM users WHERE username = $1',
       values: [username],
     };
 
