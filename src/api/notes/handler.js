@@ -13,9 +13,9 @@ class NotesHandler {
     this.putNoteByIdHandler = this.putNoteByIdHandler.bind(this);
     this.deleteNoteByIdHandler = this.deleteNoteByIdHandler.bind(this);
     /*
-    for auto bind, use third party module from NMP "autobind"
-    autoBind = this;
-    */
+        for auto bind, use third party module from NMP "autobind"
+        autoBind = this;
+        */
   }
 
   async postNoteHandler(request, h) {
