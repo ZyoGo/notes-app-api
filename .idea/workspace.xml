@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ced029b-18da-428d-9e30-91ea81e5d786" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/joi.js" beforeDir="false" afterPath="$PROJECT_DIR$/joi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1629159721421_create-table-notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1629159721421_create-table-notes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1629808378440_create-table-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1629808378440_create-table-users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/1631457739673_create-table-authentications.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/1631457739673_create-table-authentications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/notes/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/notes/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/notes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/notes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/users/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/users/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/users/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/users/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/inMemory/NotesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/inMemory/NotesService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/postgres/AuthenticationsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/AuthenticationsService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/postgres/UsersService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/UsersService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/notes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/notes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validator/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/validator/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/postgres/NotesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/NotesService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +85,7 @@
       <workItem from="1631546539043" duration="815000" />
       <workItem from="1631547401510" duration="941000" />
       <workItem from="1631580053000" duration="3390000" />
+      <workItem from="1632031468360" duration="318000" />
     </task>
     <servers />
   </component>
