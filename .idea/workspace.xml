@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ced029b-18da-428d-9e30-91ea81e5d786" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joi.js" beforeDir="false" afterPath="$PROJECT_DIR$/joi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/postgres/NotesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/postgres/NotesService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/authentications/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/authentications/handler.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="code.cleanup.on.save" value="true" />
     <property name="format.on.save" value="true" />
-    <property name="last_opened_file_path" value="/usr/lib/node_modules/prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -53,8 +56,11 @@
     <property name="optimize.imports.on.save" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/lib/node_modules/prettier" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/server.js" working-dir="$PROJECT_DIR$/src">
@@ -86,6 +92,8 @@
       <workItem from="1631547401510" duration="941000" />
       <workItem from="1631580053000" duration="3390000" />
       <workItem from="1632031468360" duration="318000" />
+      <workItem from="1633606308439" duration="273000" />
+      <workItem from="1633606916173" duration="225000" />
     </task>
     <servers />
   </component>
