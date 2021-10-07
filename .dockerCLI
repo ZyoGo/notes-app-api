@@ -1,0 +1,2 @@
+docker run -dp 5000:5000 --name dev-notes-api -w /app -v ${PWD}:/app node:14.17.6-alpine sh -c "npm install -g npm && npm install && npm run start-dev"
+dokcer logs -f dev-notes-api
