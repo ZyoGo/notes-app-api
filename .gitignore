@@ -3,4 +3,5 @@ node_modules
 .env
 .prod.env
 .tokenGithub
+.idea
 developmentdb.session.sql
