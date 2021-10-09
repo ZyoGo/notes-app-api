@@ -8,8 +8,9 @@ const NotFoundError = require('../../exceptions/NotFoundError');
 const AuthorizationError = require('../../exceptions/AuthorizationError');
 
 class NotesService {
-  constructor() {
+  constructor(collaborationService) {
     this._pool = new Pool();
+    this._collaborationService = collaborationService;
   }
 
   async addNote({ title, body, tags, owner }) {
@@ -57,7 +58,11 @@ class NotesService {
     return result.rows.map(mapDBToModel)[0];
   }
 
-  async editNoteById(id, { title, body, tags }) {
+  async editNoteById(id, {
+    title,
+    body,
+    tags,
+  }) {
     const updatedAt = new Date().toISOString();
     const updateQuery = {
       text: 'UPDATE notes SET title = $1, body = $2, tags = $3, updated_at = $4 WHERE id = $5 RETURNING id',
@@ -100,6 +105,23 @@ class NotesService {
 
     if (note.owner !== owner) {
       throw new AuthorizationError('Anda tidak berhak mengakses resource ini');
+    }
+  }
+
+  async verifyNoteAccess(noteId, userId) {
+    try {
+      await this.verifyNoteOwner(noteId, userId);
+    } catch (error) {
+      if (error instanceof NotFoundError) {
+        throw error;
+      }
+
+      // eslint-disable-next-line no-useless-catch
+      try {
+        await this._collaborationService.verifyCollaborator(noteId, userId);
+      } catch {
+        throw error;
+      }
     }
   }
 }
