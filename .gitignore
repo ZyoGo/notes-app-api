@@ -1,7 +1,7 @@
 node_modules
+.idea
 .vscode
 .env
 .prod.env
 .tokenGithub
-.idea
 developmentdb.session.sql
