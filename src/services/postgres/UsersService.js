@@ -105,7 +105,7 @@ class UserService {
     };
 
     const result = await this._pool.query(query);
-    return result;
+    return result.rows;
   }
 }
 
